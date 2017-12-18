@@ -188,21 +188,6 @@ namespace TapQuoteTest
                 {
                     Commodity =
                     {
-                        ExchangeNo = "CFFEX",
-                        CommodityType = 'F',
-                        CommodityNo = "IF"
-                    },
-                    ContractNo1 = "1806",
-                    CallOrPutFlag1 = 'N',
-                    CallOrPutFlag2 = 'N'
-                });
-
-
-            contracts.Add(
-                new TapAPIContract()
-                {
-                    Commodity =
-                    {
                         ExchangeNo = "SHFE",
                         CommodityType = 'F',
                         CommodityNo = "RB"
@@ -278,6 +263,34 @@ namespace TapQuoteTest
                         CommodityNo = "RB"
                     },
                     ContractNo1 = "1806",
+                    CallOrPutFlag1 = 'N',
+                    CallOrPutFlag2 = 'N'
+                });
+
+            contracts.Add(
+                new TapAPIContract()
+                {
+                    Commodity =
+                    {
+                        ExchangeNo = "CZCE",
+                        CommodityType = 'F',
+                        CommodityNo = "RM"
+                    },
+                    ContractNo1 = "805",
+                    CallOrPutFlag1 = 'N',
+                    CallOrPutFlag2 = 'N'
+                });
+
+            contracts.Add(
+                new TapAPIContract()
+                {
+                    Commodity =
+                    {
+                        ExchangeNo = "DCE",
+                        CommodityType = 'F',
+                        CommodityNo = "c"
+                    },
+                    ContractNo1 = "1805",
                     CallOrPutFlag1 = 'N',
                     CallOrPutFlag2 = 'N'
                 });

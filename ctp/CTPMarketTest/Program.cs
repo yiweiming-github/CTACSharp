@@ -19,7 +19,6 @@ namespace CTPMarketTest
             api.RegisterSpi(spi);
             api.RegisterFront(ctpServerAddress);
             api.Init();
-            //api.Join();
 
             while (!spi.IsConnected)
             {
@@ -33,8 +32,7 @@ namespace CTPMarketTest
             userLogin.Password = "358492";
 
             int requestId = 0;
-            api.RegisterNameServer(ctpServerAddress);
-            api.Init();
+            
             api.ReqUserLogin(userLogin, requestId++);
 
             while (!spi.IsReady)
@@ -45,10 +43,24 @@ namespace CTPMarketTest
 
             var codes = new string[]
             {
-                "RB1801",
+                "IF1801",
                 "IF1803",
-                "TF1803"
-            };
+                "IF1806",
+                "TF1803",
+                "TF1806",
+                "TF1809",
+                "T1803",
+                "T1806",
+                "T1809",
+                "rb1801",
+                "rb1802",
+                "rb1803",
+                "rb1804",
+                "rb1805",
+                "rb1806",
+                "RM805",
+                "c1805"
+            }; 
             api.SubscribeMarketData(codes, codes.Length);
 
             while (true)
