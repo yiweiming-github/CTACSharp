@@ -31,7 +31,7 @@ public class CThostFtdcTransferBankToFutureReqField : global::System.IDisposable
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcTransferBankToFutureReqField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcTransferBankToFutureReqField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcTransferBankToFutureReqField : global::System.IDisposable
 
   public string FutureAccount {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccount_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccount_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccount_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccount_get(swigCPtr);
       return ret;
     } 
   }
 
   public char FuturePwdFlag {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FuturePwdFlag_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FuturePwdFlag_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FuturePwdFlag_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FuturePwdFlag_get(swigCPtr);
       return ret;
     } 
   }
 
   public string FutureAccPwd {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccPwd_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccPwd_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccPwd_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_FutureAccPwd_get(swigCPtr);
       return ret;
     } 
   }
 
   public double TradeAmt {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_TradeAmt_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_TradeAmt_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_TradeAmt_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_TradeAmt_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CustFee {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CustFee_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CustFee_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CustFee_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CustFee_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CurrencyCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CurrencyCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CurrencyCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferBankToFutureReqField_CurrencyCode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcTransferBankToFutureReqField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcTransferBankToFutureReqField(), true) {
+  public CThostFtdcTransferBankToFutureReqField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcTransferBankToFutureReqField(), true) {
   }
 
 }

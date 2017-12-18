@@ -31,7 +31,7 @@ public class CThostFtdcSettlementRefField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSettlementRefField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSettlementRefField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,25 +41,25 @@ public class CThostFtdcSettlementRefField : global::System.IDisposable {
 
   public string TradingDay {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementRefField_TradingDay_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementRefField_TradingDay_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementRefField_TradingDay_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementRefField_TradingDay_get(swigCPtr);
       return ret;
     } 
   }
 
   public int SettlementID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementRefField_SettlementID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementRefField_SettlementID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementRefField_SettlementID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementRefField_SettlementID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSettlementRefField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSettlementRefField(), true) {
+  public CThostFtdcSettlementRefField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSettlementRefField(), true) {
   }
 
 }

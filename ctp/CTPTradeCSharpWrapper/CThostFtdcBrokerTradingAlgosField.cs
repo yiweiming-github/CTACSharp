@@ -31,7 +31,7 @@ public class CThostFtdcBrokerTradingAlgosField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcBrokerTradingAlgosField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcBrokerTradingAlgosField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcBrokerTradingAlgosField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char HandlePositionAlgoID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char FindMarginRateAlgoID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_FindMarginRateAlgoID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_FindMarginRateAlgoID_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_FindMarginRateAlgoID_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_FindMarginRateAlgoID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char HandleTradingAccountAlgoID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcBrokerTradingAlgosField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerTradingAlgosField(), true) {
+  public CThostFtdcBrokerTradingAlgosField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerTradingAlgosField(), true) {
   }
 
 }

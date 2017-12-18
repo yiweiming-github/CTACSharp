@@ -31,7 +31,7 @@ public class CThostFtdcProductExchRateField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcProductExchRateField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcProductExchRateField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcProductExchRateField : global::System.IDisposable {
 
   public string ProductID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_ProductID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_ProductID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string QuoteCurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_QuoteCurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_QuoteCurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_QuoteCurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_QuoteCurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double ExchangeRate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_ExchangeRate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_ExchangeRate_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcProductExchRateField_ExchangeRate_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcProductExchRateField_ExchangeRate_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcProductExchRateField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcProductExchRateField(), true) {
+  public CThostFtdcProductExchRateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcProductExchRateField(), true) {
   }
 
 }

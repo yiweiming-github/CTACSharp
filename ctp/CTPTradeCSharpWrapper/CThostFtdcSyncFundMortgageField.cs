@@ -31,7 +31,7 @@ public class CThostFtdcSyncFundMortgageField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSyncFundMortgageField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSyncFundMortgageField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcSyncFundMortgageField : global::System.IDisposable {
 
   public string MortgageSeqNo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageSeqNo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageSeqNo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageSeqNo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageSeqNo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string FromCurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_FromCurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_FromCurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_FromCurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_FromCurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double MortgageAmount {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageAmount_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageAmount_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageAmount_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_MortgageAmount_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ToCurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_ToCurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_ToCurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_ToCurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncFundMortgageField_ToCurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSyncFundMortgageField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSyncFundMortgageField(), true) {
+  public CThostFtdcSyncFundMortgageField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSyncFundMortgageField(), true) {
   }
 
 }

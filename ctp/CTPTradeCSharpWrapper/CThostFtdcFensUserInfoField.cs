@@ -31,7 +31,7 @@ public class CThostFtdcFensUserInfoField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcFensUserInfoField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcFensUserInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcFensUserInfoField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char LoginMode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_LoginMode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_LoginMode_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFensUserInfoField_LoginMode_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFensUserInfoField_LoginMode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcFensUserInfoField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcFensUserInfoField(), true) {
+  public CThostFtdcFensUserInfoField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcFensUserInfoField(), true) {
   }
 
 }

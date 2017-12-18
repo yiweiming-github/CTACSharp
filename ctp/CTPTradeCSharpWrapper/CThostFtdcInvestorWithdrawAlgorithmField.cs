@@ -31,7 +31,7 @@ public class CThostFtdcInvestorWithdrawAlgorithmField : global::System.IDisposab
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcInvestorWithdrawAlgorithmField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcInvestorWithdrawAlgorithmField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcInvestorWithdrawAlgorithmField : global::System.IDisposab
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char InvestorRange {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double UsingRatio {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double FundMortgageRatio {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcInvestorWithdrawAlgorithmField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcInvestorWithdrawAlgorithmField(), true) {
+  public CThostFtdcInvestorWithdrawAlgorithmField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcInvestorWithdrawAlgorithmField(), true) {
   }
 
 }

@@ -31,7 +31,7 @@ public class CThostFtdcTransferQryDetailReqField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcTransferQryDetailReqField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcTransferQryDetailReqField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcTransferQryDetailReqField : global::System.IDisposable {
 
   public string FutureAccount {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferQryDetailReqField_FutureAccount_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferQryDetailReqField_FutureAccount_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferQryDetailReqField_FutureAccount_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferQryDetailReqField_FutureAccount_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcTransferQryDetailReqField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcTransferQryDetailReqField(), true) {
+  public CThostFtdcTransferQryDetailReqField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcTransferQryDetailReqField(), true) {
   }
 
 }

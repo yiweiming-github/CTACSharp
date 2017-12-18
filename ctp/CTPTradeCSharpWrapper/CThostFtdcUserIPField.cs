@@ -31,7 +31,7 @@ public class CThostFtdcUserIPField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcUserIPField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcUserIPField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,55 +41,55 @@ public class CThostFtdcUserIPField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string IPAddress {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_IPAddress_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_IPAddress_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
 
   public string IPMask {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_IPMask_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_IPMask_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_IPMask_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_IPMask_get(swigCPtr);
       return ret;
     } 
   }
 
   public string MacAddress {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_MacAddress_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_MacAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserIPField_MacAddress_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserIPField_MacAddress_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcUserIPField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcUserIPField(), true) {
+  public CThostFtdcUserIPField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcUserIPField(), true) {
   }
 
 }

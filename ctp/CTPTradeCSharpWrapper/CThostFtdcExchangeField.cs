@@ -31,7 +31,7 @@ public class CThostFtdcExchangeField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcExchangeField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcExchangeField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcExchangeField : global::System.IDisposable {
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ExchangeName {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeName_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeName_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeName_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeName_get(swigCPtr);
       return ret;
     } 
   }
 
   public char ExchangeProperty {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeProperty_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeProperty_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeProperty_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcExchangeField_ExchangeProperty_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcExchangeField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcExchangeField(), true) {
+  public CThostFtdcExchangeField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcExchangeField(), true) {
   }
 
 }

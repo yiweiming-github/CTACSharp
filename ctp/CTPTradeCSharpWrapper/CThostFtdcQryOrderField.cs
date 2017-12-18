@@ -31,7 +31,7 @@ public class CThostFtdcQryOrderField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryOrderField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryOrderField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcQryOrderField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string OrderSysID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_OrderSysID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_OrderSysID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_OrderSysID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_OrderSysID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InsertTimeStart {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeStart_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeStart_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeStart_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeStart_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InsertTimeEnd {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeEnd_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeEnd_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeEnd_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryOrderField_InsertTimeEnd_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryOrderField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryOrderField(), true) {
+  public CThostFtdcQryOrderField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryOrderField(), true) {
   }
 
 }

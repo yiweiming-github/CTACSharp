@@ -31,7 +31,7 @@ public class CThostFtdcTransferFutureToBankRspField : global::System.IDisposable
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcTransferFutureToBankRspField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcTransferFutureToBankRspField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcTransferFutureToBankRspField : global::System.IDisposable
 
   public string RetCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetCode_get(swigCPtr);
       return ret;
     } 
   }
 
   public string RetInfo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetInfo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetInfo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetInfo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_RetInfo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string FutureAccount {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_FutureAccount_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_FutureAccount_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_FutureAccount_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_FutureAccount_get(swigCPtr);
       return ret;
     } 
   }
 
   public double TradeAmt {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_TradeAmt_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_TradeAmt_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_TradeAmt_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_TradeAmt_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CustFee {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CustFee_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CustFee_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CustFee_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CustFee_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CurrencyCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CurrencyCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CurrencyCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcTransferFutureToBankRspField_CurrencyCode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcTransferFutureToBankRspField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcTransferFutureToBankRspField(), true) {
+  public CThostFtdcTransferFutureToBankRspField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcTransferFutureToBankRspField(), true) {
   }
 
 }

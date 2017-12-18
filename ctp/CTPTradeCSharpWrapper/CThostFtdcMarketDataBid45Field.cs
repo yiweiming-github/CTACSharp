@@ -31,7 +31,7 @@ public class CThostFtdcMarketDataBid45Field : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcMarketDataBid45Field(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcMarketDataBid45Field(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcMarketDataBid45Field : global::System.IDisposable {
 
   public double BidPrice4 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice4_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice4_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice4_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice4_get(swigCPtr);
       return ret;
     } 
   }
 
   public int BidVolume4 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume4_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume4_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume4_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume4_get(swigCPtr);
       return ret;
     } 
   }
 
   public double BidPrice5 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice5_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice5_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice5_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidPrice5_get(swigCPtr);
       return ret;
     } 
   }
 
   public int BidVolume5 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume5_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume5_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume5_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBid45Field_BidVolume5_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcMarketDataBid45Field() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcMarketDataBid45Field(), true) {
+  public CThostFtdcMarketDataBid45Field() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMarketDataBid45Field(), true) {
   }
 
 }

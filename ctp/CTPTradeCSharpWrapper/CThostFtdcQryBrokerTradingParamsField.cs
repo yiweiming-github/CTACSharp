@@ -31,7 +31,7 @@ public class CThostFtdcQryBrokerTradingParamsField : global::System.IDisposable 
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryBrokerTradingParamsField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryBrokerTradingParamsField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcQryBrokerTradingParamsField : global::System.IDisposable 
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_CurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_CurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryBrokerTradingParamsField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryBrokerTradingParamsField(), true) {
+  public CThostFtdcQryBrokerTradingParamsField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryBrokerTradingParamsField(), true) {
   }
 
 }

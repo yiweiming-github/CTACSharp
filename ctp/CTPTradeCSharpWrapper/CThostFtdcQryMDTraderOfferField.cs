@@ -31,7 +31,7 @@ public class CThostFtdcQryMDTraderOfferField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryMDTraderOfferField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryMDTraderOfferField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcQryMDTraderOfferField : global::System.IDisposable {
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ParticipantID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ParticipantID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ParticipantID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ParticipantID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_ParticipantID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string TraderID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_TraderID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_TraderID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_TraderID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryMDTraderOfferField_TraderID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryMDTraderOfferField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryMDTraderOfferField(), true) {
+  public CThostFtdcQryMDTraderOfferField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryMDTraderOfferField(), true) {
   }
 
 }

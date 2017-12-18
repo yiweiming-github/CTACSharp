@@ -31,7 +31,7 @@ public class CThostFtdcQryQuoteField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryQuoteField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryQuoteField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcQryQuoteField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string QuoteSysID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_QuoteSysID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_QuoteSysID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_QuoteSysID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_QuoteSysID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InsertTimeStart {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeStart_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeStart_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeStart_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeStart_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InsertTimeEnd {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeEnd_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeEnd_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeEnd_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryQuoteField_InsertTimeEnd_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryQuoteField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryQuoteField(), true) {
+  public CThostFtdcQryQuoteField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryQuoteField(), true) {
   }
 
 }

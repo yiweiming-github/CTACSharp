@@ -31,7 +31,7 @@ public class CThostFtdcCurrentTimeField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcCurrentTimeField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcCurrentTimeField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcCurrentTimeField : global::System.IDisposable {
 
   public string CurrDate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrDate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrDate_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrDate_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrDate_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrTime {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrTime_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrTime_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrTime_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrTime_get(swigCPtr);
       return ret;
     } 
   }
 
   public int CurrMillisec {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrMillisec_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrMillisec_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrMillisec_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_CurrMillisec_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ActionDay {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_ActionDay_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_ActionDay_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCurrentTimeField_ActionDay_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCurrentTimeField_ActionDay_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcCurrentTimeField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcCurrentTimeField(), true) {
+  public CThostFtdcCurrentTimeField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCurrentTimeField(), true) {
   }
 
 }

@@ -31,7 +31,7 @@ public class CThostFtdcBrokerTradingParamsField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcBrokerTradingParamsField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcBrokerTradingParamsField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcBrokerTradingParamsField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char MarginPriceType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_MarginPriceType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_MarginPriceType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_MarginPriceType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_MarginPriceType_get(swigCPtr);
       return ret;
     } 
   }
 
   public char Algorithm {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_Algorithm_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_Algorithm_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_Algorithm_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_Algorithm_get(swigCPtr);
       return ret;
     } 
   }
 
   public char AvailIncludeCloseProfit {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_AvailIncludeCloseProfit_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_AvailIncludeCloseProfit_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_AvailIncludeCloseProfit_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_AvailIncludeCloseProfit_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_CurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_CurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_CurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_CurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char OptionRoyaltyPriceType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcBrokerTradingParamsField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerTradingParamsField(), true) {
+  public CThostFtdcBrokerTradingParamsField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerTradingParamsField(), true) {
   }
 
 }

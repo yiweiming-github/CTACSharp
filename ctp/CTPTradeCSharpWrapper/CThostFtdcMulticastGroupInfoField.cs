@@ -31,7 +31,7 @@ public class CThostFtdcMulticastGroupInfoField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcMulticastGroupInfoField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcMulticastGroupInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcMulticastGroupInfoField : global::System.IDisposable {
 
   public string GroupIP {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_get(swigCPtr);
       return ret;
     } 
   }
 
   public int GroupPort {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_get(swigCPtr);
       return ret;
     } 
   }
 
   public string SourceIP {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcMulticastGroupInfoField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcMulticastGroupInfoField(), true) {
+  public CThostFtdcMulticastGroupInfoField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMulticastGroupInfoField(), true) {
   }
 
 }

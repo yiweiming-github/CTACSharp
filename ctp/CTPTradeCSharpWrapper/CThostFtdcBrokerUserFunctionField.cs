@@ -31,7 +31,7 @@ public class CThostFtdcBrokerUserFunctionField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcBrokerUserFunctionField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcBrokerUserFunctionField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcBrokerUserFunctionField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char BrokerFunctionCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerFunctionCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerFunctionCode_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerFunctionCode_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserFunctionField_BrokerFunctionCode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcBrokerUserFunctionField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerUserFunctionField(), true) {
+  public CThostFtdcBrokerUserFunctionField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerUserFunctionField(), true) {
   }
 
 }

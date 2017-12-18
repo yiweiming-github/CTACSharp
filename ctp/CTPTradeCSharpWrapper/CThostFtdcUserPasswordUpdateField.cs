@@ -31,7 +31,7 @@ public class CThostFtdcUserPasswordUpdateField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcUserPasswordUpdateField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcUserPasswordUpdateField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcUserPasswordUpdateField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string OldPassword {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_OldPassword_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_OldPassword_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_OldPassword_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_OldPassword_get(swigCPtr);
       return ret;
     } 
   }
 
   public string NewPassword {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_NewPassword_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_NewPassword_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_NewPassword_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserPasswordUpdateField_NewPassword_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcUserPasswordUpdateField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcUserPasswordUpdateField(), true) {
+  public CThostFtdcUserPasswordUpdateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcUserPasswordUpdateField(), true) {
   }
 
 }

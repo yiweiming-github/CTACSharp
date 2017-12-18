@@ -31,7 +31,7 @@ public class CThostFtdcQryInstrumentMarginRateField : global::System.IDisposable
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryInstrumentMarginRateField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryInstrumentMarginRateField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcQryInstrumentMarginRateField : global::System.IDisposable
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char HedgeFlag {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryInstrumentMarginRateField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryInstrumentMarginRateField(), true) {
+  public CThostFtdcQryInstrumentMarginRateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryInstrumentMarginRateField(), true) {
   }
 
 }

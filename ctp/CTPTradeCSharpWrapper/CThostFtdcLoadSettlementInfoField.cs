@@ -31,7 +31,7 @@ public class CThostFtdcLoadSettlementInfoField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcLoadSettlementInfoField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcLoadSettlementInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcLoadSettlementInfoField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcLoadSettlementInfoField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcLoadSettlementInfoField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcLoadSettlementInfoField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcLoadSettlementInfoField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcLoadSettlementInfoField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcLoadSettlementInfoField(), true) {
+  public CThostFtdcLoadSettlementInfoField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcLoadSettlementInfoField(), true) {
   }
 
 }

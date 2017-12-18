@@ -31,7 +31,7 @@ public class CThostFtdcCommRateModelField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcCommRateModelField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcCommRateModelField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcCommRateModelField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CommModelID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CommModelName {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelName_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelName_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelName_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCommRateModelField_CommModelName_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcCommRateModelField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcCommRateModelField(), true) {
+  public CThostFtdcCommRateModelField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCommRateModelField(), true) {
   }
 
 }

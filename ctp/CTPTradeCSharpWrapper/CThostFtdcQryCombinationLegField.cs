@@ -31,7 +31,7 @@ public class CThostFtdcQryCombinationLegField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryCombinationLegField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryCombinationLegField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcQryCombinationLegField : global::System.IDisposable {
 
   public string CombInstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_CombInstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_CombInstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_CombInstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_CombInstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int LegID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string LegInstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegInstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegInstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegInstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryCombinationLegField_LegInstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryCombinationLegField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryCombinationLegField(), true) {
+  public CThostFtdcQryCombinationLegField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryCombinationLegField(), true) {
   }
 
 }

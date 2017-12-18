@@ -31,7 +31,7 @@ public class CThostFtdcQrySyncDepositField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQrySyncDepositField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQrySyncDepositField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,25 +41,25 @@ public class CThostFtdcQrySyncDepositField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string DepositSeqNo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_DepositSeqNo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_DepositSeqNo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_DepositSeqNo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncDepositField_DepositSeqNo_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQrySyncDepositField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQrySyncDepositField(), true) {
+  public CThostFtdcQrySyncDepositField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQrySyncDepositField(), true) {
   }
 
 }

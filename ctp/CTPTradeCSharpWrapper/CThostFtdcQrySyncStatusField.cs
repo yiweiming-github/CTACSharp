@@ -31,7 +31,7 @@ public class CThostFtdcQrySyncStatusField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQrySyncStatusField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQrySyncStatusField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcQrySyncStatusField : global::System.IDisposable {
 
   public string TradingDay {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncStatusField_TradingDay_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncStatusField_TradingDay_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySyncStatusField_TradingDay_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySyncStatusField_TradingDay_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQrySyncStatusField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQrySyncStatusField(), true) {
+  public CThostFtdcQrySyncStatusField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQrySyncStatusField(), true) {
   }
 
 }

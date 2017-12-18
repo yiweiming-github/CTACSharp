@@ -31,7 +31,7 @@ public class CThostFtdcMarketDataBestPriceField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcMarketDataBestPriceField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcMarketDataBestPriceField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcMarketDataBestPriceField : global::System.IDisposable {
 
   public double BidPrice1 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidPrice1_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidPrice1_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidPrice1_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidPrice1_get(swigCPtr);
       return ret;
     } 
   }
 
   public int BidVolume1 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidVolume1_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidVolume1_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidVolume1_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_BidVolume1_get(swigCPtr);
       return ret;
     } 
   }
 
   public double AskPrice1 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskPrice1_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskPrice1_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskPrice1_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskPrice1_get(swigCPtr);
       return ret;
     } 
   }
 
   public int AskVolume1 {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskVolume1_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskVolume1_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskVolume1_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataBestPriceField_AskVolume1_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcMarketDataBestPriceField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcMarketDataBestPriceField(), true) {
+  public CThostFtdcMarketDataBestPriceField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMarketDataBestPriceField(), true) {
   }
 
 }

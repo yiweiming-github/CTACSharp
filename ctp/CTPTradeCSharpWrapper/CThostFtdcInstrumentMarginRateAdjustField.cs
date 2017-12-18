@@ -31,7 +31,7 @@ public class CThostFtdcInstrumentMarginRateAdjustField : global::System.IDisposa
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcInstrumentMarginRateAdjustField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcInstrumentMarginRateAdjustField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,105 +41,105 @@ public class CThostFtdcInstrumentMarginRateAdjustField : global::System.IDisposa
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char InvestorRange {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char HedgeFlag {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_HedgeFlag_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_HedgeFlag_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_HedgeFlag_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_HedgeFlag_get(swigCPtr);
       return ret;
     } 
   }
 
   public double LongMarginRatioByMoney {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByMoney_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByMoney_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByMoney_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByMoney_get(swigCPtr);
       return ret;
     } 
   }
 
   public double LongMarginRatioByVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByVolume_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByVolume_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_LongMarginRatioByVolume_get(swigCPtr);
       return ret;
     } 
   }
 
   public double ShortMarginRatioByMoney {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByMoney_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByMoney_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByMoney_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByMoney_get(swigCPtr);
       return ret;
     } 
   }
 
   public double ShortMarginRatioByVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByVolume_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByVolume_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_ShortMarginRatioByVolume_get(swigCPtr);
       return ret;
     } 
   }
 
   public int IsRelative {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_IsRelative_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_IsRelative_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_IsRelative_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcInstrumentMarginRateAdjustField_IsRelative_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcInstrumentMarginRateAdjustField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcInstrumentMarginRateAdjustField(), true) {
+  public CThostFtdcInstrumentMarginRateAdjustField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcInstrumentMarginRateAdjustField(), true) {
   }
 
 }

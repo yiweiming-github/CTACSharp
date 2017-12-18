@@ -31,7 +31,7 @@ public class CThostFtdcVerifyFuturePasswordAndCustInfoField : global::System.IDi
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcVerifyFuturePasswordAndCustInfoField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcVerifyFuturePasswordAndCustInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcVerifyFuturePasswordAndCustInfoField : global::System.IDi
 
   public string CustomerName {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustomerName_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustomerName_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustomerName_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustomerName_get(swigCPtr);
       return ret;
     } 
   }
 
   public char IdCardType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdCardType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdCardType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdCardType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdCardType_get(swigCPtr);
       return ret;
     } 
   }
 
   public string IdentifiedCardNo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdentifiedCardNo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdentifiedCardNo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdentifiedCardNo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_IdentifiedCardNo_get(swigCPtr);
       return ret;
     } 
   }
 
   public char CustType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CustType_get(swigCPtr);
       return ret;
     } 
   }
 
   public string AccountID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_AccountID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_AccountID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_AccountID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_AccountID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string Password {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_Password_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_Password_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_Password_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_Password_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcVerifyFuturePasswordAndCustInfoField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcVerifyFuturePasswordAndCustInfoField(), true) {
+  public CThostFtdcVerifyFuturePasswordAndCustInfoField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcVerifyFuturePasswordAndCustInfoField(), true) {
   }
 
 }

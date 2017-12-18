@@ -31,7 +31,7 @@ public class CThostFtdcQryDepthMarketDataField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryDepthMarketDataField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryDepthMarketDataField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcQryDepthMarketDataField : global::System.IDisposable {
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryDepthMarketDataField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryDepthMarketDataField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryDepthMarketDataField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryDepthMarketDataField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryDepthMarketDataField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryDepthMarketDataField(), true) {
+  public CThostFtdcQryDepthMarketDataField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryDepthMarketDataField(), true) {
   }
 
 }

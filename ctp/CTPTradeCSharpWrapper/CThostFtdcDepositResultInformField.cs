@@ -31,7 +31,7 @@ public class CThostFtdcDepositResultInformField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcDepositResultInformField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcDepositResultInformField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcDepositResultInformField : global::System.IDisposable {
 
   public string DepositSeqNo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DepositSeqNo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DepositSeqNo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DepositSeqNo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DepositSeqNo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double Deposit {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_Deposit_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_Deposit_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_Deposit_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_Deposit_get(swigCPtr);
       return ret;
     } 
   }
 
   public int RequestID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_RequestID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_RequestID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_RequestID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_RequestID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ReturnCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_ReturnCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_ReturnCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_ReturnCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_ReturnCode_get(swigCPtr);
       return ret;
     } 
   }
 
   public string DescrInfoForReturnCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcDepositResultInformField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcDepositResultInformField(), true) {
+  public CThostFtdcDepositResultInformField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcDepositResultInformField(), true) {
   }
 
 }

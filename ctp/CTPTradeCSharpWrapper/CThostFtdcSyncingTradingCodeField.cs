@@ -31,7 +31,7 @@ public class CThostFtdcSyncingTradingCodeField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSyncingTradingCodeField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSyncingTradingCodeField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,65 +41,65 @@ public class CThostFtdcSyncingTradingCodeField : global::System.IDisposable {
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ExchangeID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ExchangeID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ExchangeID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ExchangeID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ExchangeID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ClientID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int IsActive {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_IsActive_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_IsActive_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_IsActive_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_IsActive_get(swigCPtr);
       return ret;
     } 
   }
 
   public char ClientIDType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientIDType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientIDType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientIDType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingTradingCodeField_ClientIDType_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSyncingTradingCodeField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSyncingTradingCodeField(), true) {
+  public CThostFtdcSyncingTradingCodeField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSyncingTradingCodeField(), true) {
   }
 
 }

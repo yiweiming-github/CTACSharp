@@ -31,7 +31,7 @@ public class CThostFtdcIndexPriceField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcIndexPriceField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcIndexPriceField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcIndexPriceField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double ClosePrice {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_ClosePrice_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_ClosePrice_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcIndexPriceField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcIndexPriceField(), true) {
+  public CThostFtdcIndexPriceField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcIndexPriceField(), true) {
   }
 
 }

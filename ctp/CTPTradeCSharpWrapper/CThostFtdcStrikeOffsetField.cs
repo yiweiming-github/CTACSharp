@@ -31,7 +31,7 @@ public class CThostFtdcStrikeOffsetField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcStrikeOffsetField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcStrikeOffsetField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,55 +41,55 @@ public class CThostFtdcStrikeOffsetField : global::System.IDisposable {
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char InvestorRange {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorRange_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorRange_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorRange_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorRange_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double Offset {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_Offset_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_Offset_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_Offset_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcStrikeOffsetField_Offset_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcStrikeOffsetField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcStrikeOffsetField(), true) {
+  public CThostFtdcStrikeOffsetField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcStrikeOffsetField(), true) {
   }
 
 }

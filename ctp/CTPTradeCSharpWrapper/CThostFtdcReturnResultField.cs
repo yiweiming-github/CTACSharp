@@ -31,7 +31,7 @@ public class CThostFtdcReturnResultField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcReturnResultField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcReturnResultField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,25 +41,25 @@ public class CThostFtdcReturnResultField : global::System.IDisposable {
 
   public string ReturnCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcReturnResultField_ReturnCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcReturnResultField_ReturnCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcReturnResultField_ReturnCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcReturnResultField_ReturnCode_get(swigCPtr);
       return ret;
     } 
   }
 
   public string DescrInfoForReturnCode {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcReturnResultField_DescrInfoForReturnCode_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcReturnResultField_DescrInfoForReturnCode_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcReturnResultField_DescrInfoForReturnCode_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcReturnResultField_DescrInfoForReturnCode_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcReturnResultField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcReturnResultField(), true) {
+  public CThostFtdcReturnResultField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcReturnResultField(), true) {
   }
 
 }

@@ -31,7 +31,7 @@ public class CThostFtdcCombInstrumentGuardField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcCombInstrumentGuardField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcCombInstrumentGuardField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcCombInstrumentGuardField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double GuarantRatio {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_GuarantRatio_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_GuarantRatio_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_GuarantRatio_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCombInstrumentGuardField_GuarantRatio_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcCombInstrumentGuardField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcCombInstrumentGuardField(), true) {
+  public CThostFtdcCombInstrumentGuardField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCombInstrumentGuardField(), true) {
   }
 
 }

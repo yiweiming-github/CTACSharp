@@ -31,7 +31,7 @@ public class CThostFtdcQryProductExchRateField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQryProductExchRateField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQryProductExchRateField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcQryProductExchRateField : global::System.IDisposable {
 
   public string ProductID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQryProductExchRateField_ProductID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQryProductExchRateField_ProductID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQryProductExchRateField_ProductID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQryProductExchRateField_ProductID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQryProductExchRateField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryProductExchRateField(), true) {
+  public CThostFtdcQryProductExchRateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryProductExchRateField(), true) {
   }
 
 }

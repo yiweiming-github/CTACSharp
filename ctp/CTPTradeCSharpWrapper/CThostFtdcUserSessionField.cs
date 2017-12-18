@@ -31,7 +31,7 @@ public class CThostFtdcUserSessionField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcUserSessionField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcUserSessionField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,115 +41,115 @@ public class CThostFtdcUserSessionField : global::System.IDisposable {
 
   public int FrontID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_FrontID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_FrontID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_FrontID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_FrontID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int SessionID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_SessionID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_SessionID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_SessionID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_SessionID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string LoginDate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginDate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginDate_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginDate_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginDate_get(swigCPtr);
       return ret;
     } 
   }
 
   public string LoginTime {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginTime_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginTime_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginTime_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_LoginTime_get(swigCPtr);
       return ret;
     } 
   }
 
   public string IPAddress {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_IPAddress_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_IPAddress_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserProductInfo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_UserProductInfo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_UserProductInfo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_UserProductInfo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_UserProductInfo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InterfaceProductInfo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_InterfaceProductInfo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_InterfaceProductInfo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_InterfaceProductInfo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_InterfaceProductInfo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ProtocolInfo {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_ProtocolInfo_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_ProtocolInfo_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_ProtocolInfo_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_ProtocolInfo_get(swigCPtr);
       return ret;
     } 
   }
 
   public string MacAddress {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_MacAddress_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_MacAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcUserSessionField_MacAddress_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcUserSessionField_MacAddress_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcUserSessionField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcUserSessionField(), true) {
+  public CThostFtdcUserSessionField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcUserSessionField(), true) {
   }
 
 }

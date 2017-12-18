@@ -31,7 +31,7 @@ public class CThostFtdcSettlementInfoConfirmField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSettlementInfoConfirmField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSettlementInfoConfirmField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcSettlementInfoConfirmField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ConfirmDate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmDate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmDate_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmDate_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmDate_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ConfirmTime {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmTime_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmTime_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmTime_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSettlementInfoConfirmField_ConfirmTime_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSettlementInfoConfirmField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSettlementInfoConfirmField(), true) {
+  public CThostFtdcSettlementInfoConfirmField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSettlementInfoConfirmField(), true) {
   }
 
 }

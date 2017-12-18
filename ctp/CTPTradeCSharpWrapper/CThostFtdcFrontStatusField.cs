@@ -31,7 +31,7 @@ public class CThostFtdcFrontStatusField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcFrontStatusField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcFrontStatusField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcFrontStatusField : global::System.IDisposable {
 
   public int FrontID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_FrontID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_FrontID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_FrontID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_FrontID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string LastReportDate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportDate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportDate_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportDate_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportDate_get(swigCPtr);
       return ret;
     } 
   }
 
   public string LastReportTime {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportTime_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportTime_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportTime_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_LastReportTime_get(swigCPtr);
       return ret;
     } 
   }
 
   public int IsActive {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_IsActive_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_IsActive_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcFrontStatusField_IsActive_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcFrontStatusField_IsActive_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcFrontStatusField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcFrontStatusField(), true) {
+  public CThostFtdcFrontStatusField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcFrontStatusField(), true) {
   }
 
 }

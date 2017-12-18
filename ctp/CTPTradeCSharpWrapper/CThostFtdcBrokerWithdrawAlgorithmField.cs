@@ -31,7 +31,7 @@ public class CThostFtdcBrokerWithdrawAlgorithmField : global::System.IDisposable
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcBrokerWithdrawAlgorithmField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcBrokerWithdrawAlgorithmField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,105 +41,105 @@ public class CThostFtdcBrokerWithdrawAlgorithmField : global::System.IDisposable
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char WithdrawAlgorithm {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_WithdrawAlgorithm_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_WithdrawAlgorithm_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_WithdrawAlgorithm_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_WithdrawAlgorithm_get(swigCPtr);
       return ret;
     } 
   }
 
   public double UsingRatio {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_UsingRatio_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_UsingRatio_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_UsingRatio_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_UsingRatio_get(swigCPtr);
       return ret;
     } 
   }
 
   public char IncludeCloseProfit {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IncludeCloseProfit_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IncludeCloseProfit_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IncludeCloseProfit_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IncludeCloseProfit_get(swigCPtr);
       return ret;
     } 
   }
 
   public char AllWithoutTrade {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AllWithoutTrade_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AllWithoutTrade_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AllWithoutTrade_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AllWithoutTrade_get(swigCPtr);
       return ret;
     } 
   }
 
   public char AvailIncludeCloseProfit {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AvailIncludeCloseProfit_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AvailIncludeCloseProfit_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AvailIncludeCloseProfit_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_AvailIncludeCloseProfit_get(swigCPtr);
       return ret;
     } 
   }
 
   public int IsBrokerUserEvent {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IsBrokerUserEvent_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IsBrokerUserEvent_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IsBrokerUserEvent_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_IsBrokerUserEvent_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrencyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_CurrencyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_CurrencyID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_CurrencyID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_CurrencyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double FundMortgageRatio {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr);
       return ret;
     } 
   }
 
   public char BalanceAlgorithm {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BalanceAlgorithm_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BalanceAlgorithm_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BalanceAlgorithm_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerWithdrawAlgorithmField_BalanceAlgorithm_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcBrokerWithdrawAlgorithmField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerWithdrawAlgorithmField(), true) {
+  public CThostFtdcBrokerWithdrawAlgorithmField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerWithdrawAlgorithmField(), true) {
   }
 
 }

@@ -1,4 +1,4 @@
-%module CTPMarketCppWrapper
+%module CTPTradeCppWrapper
 %{
 #include "ThostFtdcUserApiDataType.h"
 #include "ThostFtdcUserApiStruct.h"

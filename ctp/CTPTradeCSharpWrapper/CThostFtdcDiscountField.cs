@@ -31,7 +31,7 @@ public class CThostFtdcDiscountField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcDiscountField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcDiscountField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,45 +41,45 @@ public class CThostFtdcDiscountField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char InvestorRange {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorRange_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorRange_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorRange_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorRange_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double Discount {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_Discount_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_Discount_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcDiscountField_Discount_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcDiscountField_Discount_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcDiscountField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcDiscountField(), true) {
+  public CThostFtdcDiscountField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcDiscountField(), true) {
   }
 
 }

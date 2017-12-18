@@ -31,7 +31,7 @@ public class CThostFtdcLogoutAllField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcLogoutAllField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcLogoutAllField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcLogoutAllField : global::System.IDisposable {
 
   public int FrontID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_FrontID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_FrontID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_FrontID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_FrontID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int SessionID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_SessionID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_SessionID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_SessionID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_SessionID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string SystemName {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_SystemName_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_SystemName_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcLogoutAllField_SystemName_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcLogoutAllField_SystemName_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcLogoutAllField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcLogoutAllField(), true) {
+  public CThostFtdcLogoutAllField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcLogoutAllField(), true) {
   }
 
 }

@@ -31,7 +31,7 @@ public class CThostFtdcCurrTransferIdentityField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcCurrTransferIdentityField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcCurrTransferIdentityField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcCurrTransferIdentityField : global::System.IDisposable {
 
   public int IdentityID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCurrTransferIdentityField_IdentityID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCurrTransferIdentityField_IdentityID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCurrTransferIdentityField_IdentityID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCurrTransferIdentityField_IdentityID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcCurrTransferIdentityField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcCurrTransferIdentityField(), true) {
+  public CThostFtdcCurrTransferIdentityField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCurrTransferIdentityField(), true) {
   }
 
 }

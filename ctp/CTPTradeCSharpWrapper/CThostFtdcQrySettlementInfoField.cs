@@ -31,7 +31,7 @@ public class CThostFtdcQrySettlementInfoField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQrySettlementInfoField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQrySettlementInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcQrySettlementInfoField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string TradingDay {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_TradingDay_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_TradingDay_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_TradingDay_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoField_TradingDay_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQrySettlementInfoField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQrySettlementInfoField(), true) {
+  public CThostFtdcQrySettlementInfoField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQrySettlementInfoField(), true) {
   }
 
 }

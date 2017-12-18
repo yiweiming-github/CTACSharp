@@ -31,7 +31,7 @@ public class CThostFtdcManualSyncBrokerUserOTPField : global::System.IDisposable
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcManualSyncBrokerUserOTPField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcManualSyncBrokerUserOTPField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,55 +41,55 @@ public class CThostFtdcManualSyncBrokerUserOTPField : global::System.IDisposable
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string UserID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_UserID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_UserID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_UserID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_UserID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char OTPType {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_OTPType_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_OTPType_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_OTPType_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_OTPType_get(swigCPtr);
       return ret;
     } 
   }
 
   public string FirstOTP {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_get(swigCPtr);
       return ret;
     } 
   }
 
   public string SecondOTP {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcManualSyncBrokerUserOTPField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcManualSyncBrokerUserOTPField(), true) {
+  public CThostFtdcManualSyncBrokerUserOTPField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcManualSyncBrokerUserOTPField(), true) {
   }
 
 }

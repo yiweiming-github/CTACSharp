@@ -8,8 +8,8 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
-#ifndef SWIG_CTPMarketCppWrapper_WRAP_H_
-#define SWIG_CTPMarketCppWrapper_WRAP_H_
+#ifndef SWIG_CTPTradeCppWrapper_WRAP_H_
+#define SWIG_CTPTradeCppWrapper_WRAP_H_
 
 class SwigDirector_CThostFtdcTraderSpi : public CThostFtdcTraderSpi, public Swig::Director {
 

@@ -31,7 +31,7 @@ public class CThostFtdcQrySettlementInfoConfirmField : global::System.IDisposabl
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQrySettlementInfoConfirmField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQrySettlementInfoConfirmField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,25 +41,25 @@ public class CThostFtdcQrySettlementInfoConfirmField : global::System.IDisposabl
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQrySettlementInfoConfirmField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQrySettlementInfoConfirmField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQrySettlementInfoConfirmField(), true) {
+  public CThostFtdcQrySettlementInfoConfirmField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQrySettlementInfoConfirmField(), true) {
   }
 
 }

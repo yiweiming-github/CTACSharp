@@ -334,8 +334,8 @@
     <Compile Include="CThostFtdcVerifyFuturePasswordAndCustInfoField.cs" />
     <Compile Include="CThostFtdcVerifyFuturePasswordField.cs" />
     <Compile Include="CThostFtdcVerifyInvestorPasswordField.cs" />
-    <Compile Include="CTPMarketCppWrapper.cs" />
-    <Compile Include="CTPMarketCppWrapperPINVOKE.cs" />
+    <Compile Include="CTPTradeCppWrapper.cs" />
+    <Compile Include="CTPTradeCppWrapperPINVOKE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="THOST_TE_RESUME_TYPE.cs" />
   </ItemGroup>

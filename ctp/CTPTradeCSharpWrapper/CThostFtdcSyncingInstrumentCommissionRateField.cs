@@ -31,7 +31,7 @@ public class CThostFtdcSyncingInstrumentCommissionRateField : global::System.IDi
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSyncingInstrumentCommissionRateField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSyncingInstrumentCommissionRateField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,105 +41,105 @@ public class CThostFtdcSyncingInstrumentCommissionRateField : global::System.IDi
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char InvestorRange {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_get(swigCPtr);
       return ret;
     } 
   }
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public double OpenRatioByMoney {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByMoney_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByMoney_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByMoney_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByMoney_get(swigCPtr);
       return ret;
     } 
   }
 
   public double OpenRatioByVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByVolume_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByVolume_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_OpenRatioByVolume_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CloseRatioByMoney {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByMoney_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByMoney_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByMoney_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByMoney_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CloseRatioByVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByVolume_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByVolume_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseRatioByVolume_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CloseTodayRatioByMoney {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByMoney_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByMoney_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByMoney_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByMoney_get(swigCPtr);
       return ret;
     } 
   }
 
   public double CloseTodayRatioByVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSyncingInstrumentCommissionRateField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSyncingInstrumentCommissionRateField(), true) {
+  public CThostFtdcSyncingInstrumentCommissionRateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSyncingInstrumentCommissionRateField(), true) {
   }
 
 }

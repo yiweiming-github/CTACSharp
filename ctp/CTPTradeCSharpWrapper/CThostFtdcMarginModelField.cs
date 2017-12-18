@@ -31,7 +31,7 @@ public class CThostFtdcMarginModelField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcMarginModelField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcMarginModelField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcMarginModelField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string MarginModelID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string MarginModelName {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelName_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelName_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelName_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarginModelField_MarginModelName_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcMarginModelField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcMarginModelField(), true) {
+  public CThostFtdcMarginModelField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMarginModelField(), true) {
   }
 
 }

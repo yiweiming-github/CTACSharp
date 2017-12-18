@@ -31,7 +31,7 @@ public class CThostFtdcMarketDataAveragePriceField : global::System.IDisposable 
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcMarketDataAveragePriceField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcMarketDataAveragePriceField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcMarketDataAveragePriceField : global::System.IDisposable 
 
   public double AveragePrice {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataAveragePriceField_AveragePrice_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataAveragePriceField_AveragePrice_set(swigCPtr, value);
     } 
     get {
-      double ret = CTPMarketCppWrapperPINVOKE.CThostFtdcMarketDataAveragePriceField_AveragePrice_get(swigCPtr);
+      double ret = CTPTradeCppWrapperPINVOKE.CThostFtdcMarketDataAveragePriceField_AveragePrice_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcMarketDataAveragePriceField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcMarketDataAveragePriceField(), true) {
+  public CThostFtdcMarketDataAveragePriceField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMarketDataAveragePriceField(), true) {
   }
 
 }

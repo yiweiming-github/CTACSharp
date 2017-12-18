@@ -31,7 +31,7 @@ public class CThostFtdcSpecificInstrumentField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcSpecificInstrumentField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcSpecificInstrumentField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,15 +41,15 @@ public class CThostFtdcSpecificInstrumentField : global::System.IDisposable {
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcSpecificInstrumentField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcSpecificInstrumentField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcSpecificInstrumentField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcSpecificInstrumentField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcSpecificInstrumentField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSpecificInstrumentField(), true) {
+  public CThostFtdcSpecificInstrumentField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcSpecificInstrumentField(), true) {
   }
 
 }

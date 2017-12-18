@@ -31,7 +31,7 @@ public class CThostFtdcQueryCFMMCTradingAccountTokenField : global::System.IDisp
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQueryCFMMCTradingAccountTokenField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQueryCFMMCTradingAccountTokenField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,25 +41,25 @@ public class CThostFtdcQueryCFMMCTradingAccountTokenField : global::System.IDisp
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQueryCFMMCTradingAccountTokenField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQueryCFMMCTradingAccountTokenField(), true) {
+  public CThostFtdcQueryCFMMCTradingAccountTokenField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQueryCFMMCTradingAccountTokenField(), true) {
   }
 
 }

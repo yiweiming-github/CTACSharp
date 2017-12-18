@@ -31,7 +31,7 @@ public class CThostFtdcQueryMaxOrderVolumeField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcQueryMaxOrderVolumeField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcQueryMaxOrderVolumeField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcQueryMaxOrderVolumeField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InvestorID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InvestorID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InvestorID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InvestorID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InvestorID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string InstrumentID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
 
   public char Direction {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_Direction_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_Direction_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_Direction_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_Direction_get(swigCPtr);
       return ret;
     } 
   }
 
   public char OffsetFlag {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get(swigCPtr);
       return ret;
     } 
   }
 
   public char HedgeFlag {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get(swigCPtr);
       return ret;
     } 
   }
 
   public int MaxVolume {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcQueryMaxOrderVolumeField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQueryMaxOrderVolumeField(), true) {
+  public CThostFtdcQueryMaxOrderVolumeField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQueryMaxOrderVolumeField(), true) {
   }
 
 }

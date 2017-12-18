@@ -31,7 +31,7 @@ public class CThostFtdcBrokerUserRightAssignField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcBrokerUserRightAssignField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcBrokerUserRightAssignField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,35 +41,35 @@ public class CThostFtdcBrokerUserRightAssignField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int DRIdentityID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_DRIdentityID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_DRIdentityID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_DRIdentityID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_DRIdentityID_get(swigCPtr);
       return ret;
     } 
   }
 
   public int Tradeable {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_Tradeable_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_Tradeable_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_Tradeable_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcBrokerUserRightAssignField_Tradeable_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcBrokerUserRightAssignField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerUserRightAssignField(), true) {
+  public CThostFtdcBrokerUserRightAssignField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerUserRightAssignField(), true) {
   }
 
 }

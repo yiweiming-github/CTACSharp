@@ -31,7 +31,7 @@ public class CThostFtdcCFMMCBrokerKeyField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPMarketCppWrapperPINVOKE.delete_CThostFtdcCFMMCBrokerKeyField(swigCPtr);
+          CTPTradeCppWrapperPINVOKE.delete_CThostFtdcCFMMCBrokerKeyField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
@@ -41,75 +41,75 @@ public class CThostFtdcCFMMCBrokerKeyField : global::System.IDisposable {
 
   public string BrokerID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_BrokerID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_BrokerID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_BrokerID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_BrokerID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string ParticipantID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_ParticipantID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_ParticipantID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_ParticipantID_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_ParticipantID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CreateDate {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateDate_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateDate_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateDate_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateDate_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CreateTime {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateTime_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateTime_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateTime_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CreateTime_get(swigCPtr);
       return ret;
     } 
   }
 
   public int KeyID {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyID_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyID_set(swigCPtr, value);
     } 
     get {
-      int ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyID_get(swigCPtr);
+      int ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyID_get(swigCPtr);
       return ret;
     } 
   }
 
   public string CurrentKey {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CurrentKey_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CurrentKey_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CurrentKey_get(swigCPtr);
+      string ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_CurrentKey_get(swigCPtr);
       return ret;
     } 
   }
 
   public char KeyKind {
     set {
-      CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyKind_set(swigCPtr, value);
+      CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyKind_set(swigCPtr, value);
     } 
     get {
-      char ret = CTPMarketCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyKind_get(swigCPtr);
+      char ret = CTPTradeCppWrapperPINVOKE.CThostFtdcCFMMCBrokerKeyField_KeyKind_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcCFMMCBrokerKeyField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcCFMMCBrokerKeyField(), true) {
+  public CThostFtdcCFMMCBrokerKeyField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCFMMCBrokerKeyField(), true) {
   }
 
 }
