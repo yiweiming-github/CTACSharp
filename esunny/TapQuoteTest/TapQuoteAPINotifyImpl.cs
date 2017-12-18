@@ -65,8 +65,6 @@ namespace TapQuoteTest
                     info.Contract.Commodity.CommodityNo,
                     info.Contract.ContractNo1,
                     info.QLastPrice);
-                info.Dispose();
-                info = null;
             }
         }
     }
