@@ -90,5 +90,11 @@ namespace CTPTradeTest
                 Console.WriteLine("OnRspOrderInsert");
             }
         }
+
+        public override void OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm,
+            CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast)
+        {
+            Console.WriteLine("OnRspSettlementInfoConfirm");
+        }
     }
 }

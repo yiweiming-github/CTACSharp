@@ -43,6 +43,17 @@ namespace CTPTradeTest
                 Console.WriteLine("is not ready...");
             }
 
+            Thread.Sleep(1100);
+
+            var settlementConfirm = new CThostFtdcSettlementInfoConfirmField()
+            {
+                BrokerID = userLogin.BrokerID,
+                InvestorID = userLogin.UserID
+            };
+            api.ReqSettlementInfoConfirm(settlementConfirm, requestId++);
+
+            Thread.Sleep(3000);
+
             var order = new CThostFtdcInputOrderField();
             order.BrokerID = userLogin.BrokerID;
             order.InvestorID = userLogin.UserID;
