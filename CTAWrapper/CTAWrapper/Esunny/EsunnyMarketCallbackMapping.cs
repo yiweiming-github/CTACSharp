@@ -59,6 +59,21 @@ namespace CTAWrapper.Esunny
             _callbackApi.OnRspSubMarketData(field, rspInfoField, 0, true);
         }
 
+        public override void OnRspUnSubscribeQuote(uint sessionID, int errorCode, char isLast, TapAPIContract info)
+        {
+            var field = new SpecificInstrumentField()
+            {
+                InstrumentID = info.Commodity.CommodityNo + info.ContractNo1
+            };
+
+            var rspInfoField = new RspInfoField()
+            {
+                ErrorID = errorCode
+            };
+
+            _callbackApi.OnRspUnSubMarketData(field, rspInfoField, 0, true);
+        }
+
         public override void OnRtnQuote(TapAPIQuoteWhole info)
         {
             if (info != null)
@@ -74,6 +89,16 @@ namespace CTAWrapper.Esunny
                 };
                 _callbackApi.OnRtnDepthMarketData(field);
             }
+        }
+
+        public override void OnRspQryCommodity(uint sessionID, int errorCode, char isLast, TapAPIQuoteCommodityInfo info)
+        {
+            
+        }
+
+        public override void OnRspQryContract(uint sessionID, int errorCode, char isLast, TapAPIQuoteContractInfo info)
+        {
+            
         }
 
         private IMarketCallbackApi _callbackApi;

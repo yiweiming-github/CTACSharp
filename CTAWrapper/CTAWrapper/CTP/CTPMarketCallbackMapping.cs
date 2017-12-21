@@ -148,6 +148,105 @@ namespace CTAWrapper.CTP
             }
         }
 
+        public override void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
+            int nRequestID, bool bIsLast)
+        {
+            if (pSpecificInstrument != null && pRspInfo != null)
+            {
+                var specificInstrumentField = new SpecificInstrumentField()
+                {
+                    InstrumentID = pSpecificInstrument.InstrumentID
+                };
+
+                var info = new RspInfoField()
+                {
+                    ErrorID = pRspInfo.ErrorID,
+                    ErrorMsg = pRspInfo.ErrorMsg
+                };
+
+                _callbackApi.OnRspSubForQuoteRsp(specificInstrumentField, info, nRequestID, bIsLast);
+            }
+        }
+
+        public override void OnRspUnSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
+            int nRequestID, bool bIsLast)
+        {
+            if (pSpecificInstrument != null && pRspInfo != null)
+            {
+                var specificInstrument = new SpecificInstrumentField()
+                {
+                    InstrumentID = pSpecificInstrument.InstrumentID
+                };
+
+                var info = new RspInfoField()
+                {
+                    ErrorID = pRspInfo.ErrorID,
+                    ErrorMsg = pRspInfo.ErrorMsg
+                };
+
+                _callbackApi.OnRspUnSubForQuoteRsp(specificInstrument, info, nRequestID, bIsLast);
+            }
+        }
+
+        public override void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
+            int nRequestID, bool bIsLast)
+        {
+            if (pSpecificInstrument != null && pRspInfo != null)
+            {
+                var specificInstrument = new SpecificInstrumentField()
+                {
+                    InstrumentID = pSpecificInstrument.InstrumentID
+                };
+
+                var info = new RspInfoField()
+                {
+                    ErrorID = pRspInfo.ErrorID,
+                    ErrorMsg = pRspInfo.ErrorMsg
+                };
+
+                _callbackApi.OnRspUnSubMarketData(specificInstrument, info, nRequestID, bIsLast);
+            }
+        }
+
+        public override void OnRspUserLogout(CThostFtdcUserLogoutField pUserLogout, CThostFtdcRspInfoField pRspInfo, int nRequestID,
+            bool bIsLast)
+        {
+            if (pUserLogout != null && pRspInfo != null)
+            {
+                var userLogout = new UserLogoutField()
+                {
+                    BrokerID = pUserLogout.BrokerID,
+                    UserID = pUserLogout.UserID
+                };
+
+                var info = new RspInfoField()
+                {
+                    ErrorID = pRspInfo.ErrorID,
+                    ErrorMsg = pRspInfo.ErrorMsg
+                };
+
+                _callbackApi.OnRspUserLogout(userLogout, info, nRequestID, bIsLast);
+            }
+        }
+
+        public override void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp)
+        {
+            if (pForQuoteRsp != null)
+            {
+                var quoteRsp = new ForQuoteRspField()
+                {
+                    TradingDay = pForQuoteRsp.TradingDay,
+                    InstrumentID = pForQuoteRsp.InstrumentID,
+                    ForQuoteSysID = pForQuoteRsp.ForQuoteSysID,
+                    ForQuoteTime = pForQuoteRsp.ForQuoteTime,
+                    ActionDay = pForQuoteRsp.ActionDay,
+                    ExchangeID = pForQuoteRsp.ExchangeID
+                };
+
+                _callbackApi.OnRtnForQuoteRsp(quoteRsp);
+            }
+        }
+
         private IMarketCallbackApi _callbackApi;
     }
 }

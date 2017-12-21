@@ -24,7 +24,7 @@ namespace CTAWrapper.CTP
 
         public string GetApiVersion()
         {
-            return "Not Implemented";
+            return CThostFtdcMdApi.GetApiVersion();
         }
 
         public void Release()
