@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CTAWrapper.Structs
+namespace CTAWrapper
 {
-    public class SpecificInstrumentField
+    public interface ITradeCallbackMapping
     {
-        public string InstrumentID { get; set; }
     }
 }

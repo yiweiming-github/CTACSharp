@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CTAWrapper;
-using CTAWrapper.Structs;
 
 namespace CTAWrapperTest
 {
@@ -23,7 +22,7 @@ namespace CTAWrapperTest
 
         public void OnHeartBeatWarning(int nTimeLapse) { throw new NotImplementedException(); }
 
-        public void OnRspUserLogin(RspUserLoginField pRspUserLogin, RspInfoField pRspInfo, int nRequestID, bool bIsLast)
+        public void OnRspUserLogin(CThostFtdcRspUserLoginField pRspUserLogin, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast)
         {
             if (pRspInfo.ErrorID != 0)
             {
@@ -41,41 +40,41 @@ namespace CTAWrapperTest
             _isReady = true;
         }
 
-        public void OnRspUserLogout(UserLogoutField pUserLogout, RspInfoField pRspInfo, int nRequestID, bool bIsLast)
+        public void OnRspUserLogout(CThostFtdcUserLogoutField pUserLogout, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspUserLogin");
         }
 
-        public void OnRspError(RspInfoField pRspInfo, int nRequestID, bool bIsLast)
+        public void OnRspError(CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspError");
         }
 
-        public void OnRspSubMarketData(SpecificInstrumentField pSpecificInstrument, RspInfoField pRspInfo,
+        public void OnRspSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
             int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspSubMarketData");
         }
 
-        public void OnRspUnSubMarketData(SpecificInstrumentField pSpecificInstrument, RspInfoField pRspInfo,
+        public void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
             int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspUnSubMarketData");
         }
 
-        public void OnRspSubForQuoteRsp(SpecificInstrumentField pSpecificInstrument, RspInfoField pRspInfo,
+        public void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
             int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspSubForQuoteRsp");
         }
 
-        public void OnRspUnSubForQuoteRsp(SpecificInstrumentField pSpecificInstrument, RspInfoField pRspInfo,
+        public void OnRspUnSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo,
             int nRequestID, bool bIsLast)
         {
             Console.WriteLine("OnRspUnSubForQuoteRsp");
         }
 
-        public void OnRtnDepthMarketData(DepthMarketDataField pDepthMarketData)
+        public void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData)
         {
             if (pDepthMarketData != null)
             {
@@ -88,7 +87,7 @@ namespace CTAWrapperTest
             }
         }
 
-        public void OnRtnForQuoteRsp(ForQuoteRspField pForQuoteRsp)
+        public void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp)
         {
             Console.WriteLine("OnRtnForQuoteRsp");
         }

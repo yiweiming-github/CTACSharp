@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CTAWrapper.Esunny;
-using CTAWrapper.Structs;
 
 namespace CTAWrapper.CTP
 {
@@ -57,15 +56,9 @@ namespace CTAWrapper.CTP
             _mdApi.RegisterNameServer(pszNsAddress);
         }
         
-        public void RegisterFensUserInfo(FensUserInfoField pFensUserInfo)
+        public void RegisterFensUserInfo(CThostFtdcFensUserInfoField pFensUserInfo)
         {
-            var fensUserInfo = new CThostFtdcFensUserInfoField()
-            {
-                BrokerID = pFensUserInfo.BrokerID,
-                UserID = pFensUserInfo.UserID,
-                LoginMode = pFensUserInfo.LoginMode
-            };
-            _mdApi.RegisterFensUserInfo(fensUserInfo);
+            _mdApi.RegisterFensUserInfo(pFensUserInfo);
         }
 
         public void SubscribeMarketData(string[] instrumentIds, int count)
@@ -88,33 +81,15 @@ namespace CTAWrapper.CTP
             return _mdApi.UnSubscribeForQuoteRsp(instrumentIds, nCount);
         }
 
-        public int ReqUserLogin(ReqUserLoginField pReqUserLoginField, int nRequestID = 0)
+        public int ReqUserLogin(CThostFtdcReqUserLoginField pReqUserLoginField, int nRequestID = 0)
         {
-            var userLoginField = new CThostFtdcReqUserLoginField()
-            {
-                TradingDay = pReqUserLoginField.TradingDay,
-                BrokerID = pReqUserLoginField.BrokerID,
-                UserID = pReqUserLoginField.UserID,
-                Password = pReqUserLoginField.Password,
-                UserProductInfo = pReqUserLoginField.UserProductInfo,
-                InterfaceProductInfo = pReqUserLoginField.InterfaceProductInfo,
-                ProtocolInfo = pReqUserLoginField.ProtocolInfo,
-                MacAddress = pReqUserLoginField.MacAddress,
-                OneTimePassword = pReqUserLoginField.OneTimePassword,
-                ClientIPAddress = pReqUserLoginField.ClientIPAddress
-            };
-            return _mdApi.ReqUserLogin(userLoginField, nRequestID);
+            return _mdApi.ReqUserLogin(pReqUserLoginField, nRequestID);
         }
 
         
-        public int ReqUserLogout(UserLogoutField pUserLogout, int nRequestID = 0)
+        public int ReqUserLogout(CThostFtdcUserLogoutField pUserLogout, int nRequestID = 0)
         {
-            var userLogoutField = new CThostFtdcUserLogoutField()
-            {
-                BrokerID = pUserLogout.BrokerID,
-                UserID = pUserLogout.UserID
-            };
-            return _mdApi.ReqUserLogout(userLogoutField, nRequestID);
+            return _mdApi.ReqUserLogout(pUserLogout, nRequestID);
         }
         
         private CThostFtdcMdApi _mdApi;

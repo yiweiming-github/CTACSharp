@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CTAWrapper.Structs;
 
 namespace CTAWrapper.Esunny
 {
@@ -16,18 +15,18 @@ namespace CTAWrapper.Esunny
 
         public override void OnRspLogin(int errorCode, TapAPIQuotLoginRspInfo info)
         {
-            var rspLoginField = new RspUserLoginField()
+            var rspLoginField = new CThostFtdcRspUserLoginField()
             {
                 TradingDay = info.TradeDate,
                 LoginTime = info.StartTime,
-                BrokderID = "",
+                BrokerID = "",
                 UserID = info.UserNo,
                 SystemName = "esunny",
                 FrontID = 0,
                 SessionID = 0
             };
 
-            var rspInfoField = new RspInfoField()
+            var rspInfoField = new CThostFtdcRspInfoField()
             {
                 ErrorID = errorCode
             };
@@ -47,12 +46,12 @@ namespace CTAWrapper.Esunny
 
         public override void OnRspSubscribeQuote(uint sessionID, int errorCode, char isLast, TapAPIQuoteWhole info)
         {
-            var field = new SpecificInstrumentField()
+            var field = new CThostFtdcSpecificInstrumentField()
             {
                 InstrumentID = info.Contract.Commodity.CommodityNo + info.Contract.ContractNo1
             };
 
-            var rspInfoField = new RspInfoField()
+            var rspInfoField = new CThostFtdcRspInfoField()
             {
                 ErrorID = errorCode
             };
@@ -61,12 +60,12 @@ namespace CTAWrapper.Esunny
 
         public override void OnRspUnSubscribeQuote(uint sessionID, int errorCode, char isLast, TapAPIContract info)
         {
-            var field = new SpecificInstrumentField()
+            var field = new CThostFtdcSpecificInstrumentField()
             {
                 InstrumentID = info.Commodity.CommodityNo + info.ContractNo1
             };
 
-            var rspInfoField = new RspInfoField()
+            var rspInfoField = new CThostFtdcRspInfoField()
             {
                 ErrorID = errorCode
             };
@@ -78,7 +77,7 @@ namespace CTAWrapper.Esunny
         {
             if (info != null)
             {
-                var field = new DepthMarketDataField()
+                var field = new CThostFtdcDepthMarketDataField()
                 {
                     TradingDay = "",
                     InstrumentID = info.Contract.Commodity.CommodityNo + info.Contract.ContractNo1,

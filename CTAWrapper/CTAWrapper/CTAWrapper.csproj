@@ -49,7 +49,6 @@
     <Compile Include="CTP\CTPMarketApi.cs" />
     <Compile Include="CTP\CTPMarketApiFactory.cs" />
     <Compile Include="CTP\CTPMarketCallbackMapping.cs" />
-    <Compile Include="Enums.cs" />
     <Compile Include="Esunny\EsunnyMarketApi.cs" />
     <Compile Include="Esunny\EsunnyMarketApiFactory.cs" />
     <Compile Include="Esunny\EsunnyMarketCallbackMapping.cs" />
@@ -57,15 +56,11 @@
     <Compile Include="IMarketCallbackApi.cs" />
     <Compile Include="IMarketCallbackMapping.cs" />
     <Compile Include="IMarketApiFactory.cs" />
+    <Compile Include="ITradeApi.cs" />
+    <Compile Include="ITradeApiFactory.cs" />
+    <Compile Include="ITradeCallbackApi.cs" />
+    <Compile Include="ITradeCallbackMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structs\DepthMarketDataField.cs" />
-    <Compile Include="Structs\FensUserInfoField.cs" />
-    <Compile Include="Structs\ForQuoteRspField.cs" />
-    <Compile Include="Structs\ReqUserLoginField.cs" />
-    <Compile Include="Structs\RspInfoField.cs" />
-    <Compile Include="Structs\RspUserLoginField.cs" />
-    <Compile Include="Structs\SpecificInstrumentField.cs" />
-    <Compile Include="Structs\UserLogoutField.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

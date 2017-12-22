@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CTAWrapper.Structs;
 
 namespace CTAWrapper.Esunny
 {
@@ -62,7 +61,7 @@ namespace CTAWrapper.Esunny
         }
 
         //ESunny not supported
-        public void RegisterFensUserInfo(FensUserInfoField pFensUserInfo)
+        public void RegisterFensUserInfo(CThostFtdcFensUserInfoField pFensUserInfo)
         {
         }
 
@@ -102,7 +101,7 @@ namespace CTAWrapper.Esunny
             return 0;
         }
 
-        public int ReqUserLogin(ReqUserLoginField pReqUserLoginField, int nRequestID = 0)
+        public int ReqUserLogin(CThostFtdcReqUserLoginField pReqUserLoginField, int nRequestID = 0)
         {
             var loginAuth = new TapAPIQuoteLoginAuth()
             {
@@ -115,7 +114,7 @@ namespace CTAWrapper.Esunny
         }
 
         //ESunny not supported
-        public int ReqUserLogout(UserLogoutField pUserLogout, int nRequestID = 0)
+        public int ReqUserLogout(CThostFtdcUserLogoutField pUserLogout, int nRequestID = 0)
         {
             return 0;
         }

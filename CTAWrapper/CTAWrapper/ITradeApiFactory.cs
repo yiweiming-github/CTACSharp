@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace CTAWrapper
 {
-    public enum THOST_TE_RESUME_TYPE
+    public interface ITradeApiFactory
     {
-        THOST_TERT_RESTART = 0,
-        THOST_TERT_RESUME,
-        THOST_TERT_QUICK
+        ITradeApi CreateTradeApi();
+        ITradeCallbackMapping CreateTradeCallbackMapping();
     }
 }

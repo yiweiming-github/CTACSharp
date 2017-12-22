@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using CTAWrapper;
 using CTAWrapper.CTP;
 using CTAWrapper.Esunny;
-using CTAWrapper.Structs;
 
 namespace CTAWrapperTest
 {
@@ -15,15 +14,22 @@ namespace CTAWrapperTest
     {
         static void Main(string[] args)
         {
-            var marketApiFactory = GetMarketApiFactory("ctp");
+            MarketApiTest();
+        }
+
+        #region MarketApi
+
+        static void MarketApiTest()
+        {
+            var marketApiFactory = GetMarketApiFactory("esunny");
 
             var marketApi = marketApiFactory.CreateMarketApi();
             var callbackImpl = new MarketCallbackApiImpl();
             marketApi.RegisterCallbackMapping(callbackImpl);
 
-            //marketApi.RegisterFront("");
-            marketApi.RegisterFront("tcp://ctp1-md1.citicsf.com:41213");
-            
+            marketApi.RegisterFront("");
+            //marketApi.RegisterFront("tcp://ctp1-md1.citicsf.com:41213");
+
             marketApi.Init();
 
             while (!callbackImpl.IsConnected)
@@ -32,18 +38,18 @@ namespace CTAWrapperTest
                 Console.WriteLine("is not connected...");
             }
 
-            //var loginInfo = new ReqUserLoginField()
-            //{
-            //    BrokerID = "",
-            //    UserID = "",
-            //    Password = ""
-            //};
-            var loginInfo = new ReqUserLoginField()
+            var loginInfo = new CThostFtdcReqUserLoginField()
             {
-                BrokerID = "66666",
-                UserID = "11782",
-                Password = "358492"
+                BrokerID = "",
+                UserID = "",
+                Password = ""
             };
+            //var loginInfo = new CThostFtdcReqUserLoginField()
+            //{
+            //    BrokerID = "66666",
+            //    UserID = "11782",
+            //    Password = "358492"
+            //};
 
             marketApi.ReqUserLogin(loginInfo);
 
@@ -84,5 +90,14 @@ namespace CTAWrapperTest
                 return null;
             }
         }
+
+        #endregion
+
+        #region TradeApi
+
+        static void TradeApiTest()
+        { }
+
+        #endregion
     }
 }
