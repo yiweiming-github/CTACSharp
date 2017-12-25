@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcTransferBankToFutureReqField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -101,5 +102,7 @@ public class CThostFtdcTransferBankToFutureReqField : global::System.IDisposable
 
   public CThostFtdcTransferBankToFutureReqField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcTransferBankToFutureReqField(), true) {
   }
+
+}
 
 }

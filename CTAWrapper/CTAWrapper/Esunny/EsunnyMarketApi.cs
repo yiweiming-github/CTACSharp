@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CTACSharp.CTP.Market;
 
 namespace CTAWrapper.Esunny
 {
@@ -13,7 +14,7 @@ namespace CTAWrapper.Esunny
             _tapApi = tapApi;
         }
 
-        public void RegisterCallbackMapping(IMarketCallbackApi callbackApi)
+        public void RegisterCallback(IMarketCallbackApi callbackApi)
         {
             _callbackApi = callbackApi;
             var mapping = new EsunnyMarketCallbackMapping();
@@ -121,6 +122,10 @@ namespace CTAWrapper.Esunny
 
         private Tuple<string, ushort> SplitIpAndPort(string address)
         {
+            //var parts = address.Split(new string[] {"://"}, StringSplitOptions.RemoveEmptyEntries);
+            //var addressWithOutProtocol = parts.Length > 0 ? parts[1] : parts[0];
+            //parts = addressWithOutProtocol.Split(new char[] {':'}, StringSplitOptions.RemoveEmptyEntries);
+            //if 
             return new Tuple<string, ushort>("222.88.40.170", 6161);
         }
 

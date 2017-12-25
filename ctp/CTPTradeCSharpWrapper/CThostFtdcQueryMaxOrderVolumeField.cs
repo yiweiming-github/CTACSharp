@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcQueryMaxOrderVolumeField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -111,5 +112,7 @@ public class CThostFtdcQueryMaxOrderVolumeField : global::System.IDisposable {
 
   public CThostFtdcQueryMaxOrderVolumeField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQueryMaxOrderVolumeField(), true) {
   }
+
+}
 
 }

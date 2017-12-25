@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcMdSpi : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -211,4 +212,6 @@ public class CThostFtdcMdSpi : global::System.IDisposable {
   private static global::System.Type[] swigMethodTypes9 = new global::System.Type[] { typeof(CThostFtdcSpecificInstrumentField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes10 = new global::System.Type[] { typeof(CThostFtdcDepthMarketDataField) };
   private static global::System.Type[] swigMethodTypes11 = new global::System.Type[] { typeof(CThostFtdcForQuoteRspField) };
+}
+
 }

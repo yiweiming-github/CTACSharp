@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcQryExecOrderActionField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -71,5 +72,7 @@ public class CThostFtdcQryExecOrderActionField : global::System.IDisposable {
 
   public CThostFtdcQryExecOrderActionField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryExecOrderActionField(), true) {
   }
+
+}
 
 }

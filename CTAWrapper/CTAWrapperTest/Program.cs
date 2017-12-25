@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using CTACSharp.CTP.Market;
 using CTAWrapper;
 using CTAWrapper.CTP;
 using CTAWrapper.Esunny;
@@ -14,21 +15,18 @@ namespace CTAWrapperTest
     {
         static void Main(string[] args)
         {
-            MarketApiTest();
+            MarketApiTestEsunny();
         }
 
-        #region MarketApi
-
-        static void MarketApiTest()
+        static void MarketApiTestEsunny()
         {
             var marketApiFactory = GetMarketApiFactory("esunny");
 
             var marketApi = marketApiFactory.CreateMarketApi();
             var callbackImpl = new MarketCallbackApiImpl();
-            marketApi.RegisterCallbackMapping(callbackImpl);
+            marketApi.RegisterCallback(callbackImpl);
 
             marketApi.RegisterFront("");
-            //marketApi.RegisterFront("tcp://ctp1-md1.citicsf.com:41213");
 
             marketApi.Init();
 
@@ -44,12 +42,51 @@ namespace CTAWrapperTest
                 UserID = "",
                 Password = ""
             };
-            //var loginInfo = new CThostFtdcReqUserLoginField()
-            //{
-            //    BrokerID = "66666",
-            //    UserID = "11782",
-            //    Password = "358492"
-            //};
+
+            marketApi.ReqUserLogin(loginInfo);
+
+            while (!callbackImpl.IsReady)
+            {
+                Thread.Sleep(100);
+                Console.WriteLine("is not ready...");
+            }
+
+            var codes = new string[]
+            {
+                "IF1801"
+            };
+            marketApi.SubscribeMarketData(codes, codes.Length);
+
+            while (true)
+            {
+                Thread.Sleep(100);
+            }
+        }
+
+        static void MarketApiTestCTP()
+        {
+            var marketApiFactory = GetMarketApiFactory("ctp");
+
+            var marketApi = marketApiFactory.CreateMarketApi();
+            var callbackImpl = new MarketCallbackApiImpl();
+            marketApi.RegisterCallback(callbackImpl);
+
+            marketApi.RegisterFront("tcp://ctp1-md1.citicsf.com:41213");
+
+            marketApi.Init();
+
+            while (!callbackImpl.IsConnected)
+            {
+                Thread.Sleep(100);
+                Console.WriteLine("is not connected...");
+            }
+
+            var loginInfo = new CThostFtdcReqUserLoginField()
+            {
+                BrokerID = "66666",
+                UserID = "11782",
+                Password = "358492"
+            };
 
             marketApi.ReqUserLogin(loginInfo);
 
@@ -90,14 +127,5 @@ namespace CTAWrapperTest
                 return null;
             }
         }
-
-        #endregion
-
-        #region TradeApi
-
-        static void TradeApiTest()
-        { }
-
-        #endregion
     }
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcCFMMCTradingAccountKeyField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -91,5 +92,7 @@ public class CThostFtdcCFMMCTradingAccountKeyField : global::System.IDisposable 
 
   public CThostFtdcCFMMCTradingAccountKeyField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcCFMMCTradingAccountKeyField(), true) {
   }
+
+}
 
 }

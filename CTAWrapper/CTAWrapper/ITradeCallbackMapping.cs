@@ -8,5 +8,6 @@ namespace CTAWrapper
 {
     public interface ITradeCallbackMapping
     {
+        void SetCallbackImpl(ITradeCallbackApi callbackApi);
     }
 }

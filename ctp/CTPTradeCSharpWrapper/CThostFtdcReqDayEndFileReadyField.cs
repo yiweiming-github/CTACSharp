@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcReqDayEndFileReadyField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -181,5 +182,7 @@ public class CThostFtdcReqDayEndFileReadyField : global::System.IDisposable {
 
   public CThostFtdcReqDayEndFileReadyField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcReqDayEndFileReadyField(), true) {
   }
+
+}
 
 }

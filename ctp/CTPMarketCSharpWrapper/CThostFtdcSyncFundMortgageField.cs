@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcSyncFundMortgageField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -101,5 +102,7 @@ public class CThostFtdcSyncFundMortgageField : global::System.IDisposable {
 
   public CThostFtdcSyncFundMortgageField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcSyncFundMortgageField(), true) {
   }
+
+}
 
 }

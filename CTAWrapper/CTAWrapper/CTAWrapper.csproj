@@ -33,6 +33,9 @@
     <Reference Include="CTPMarketCSharpWrapper">
       <HintPath>..\api\ctp\Market\CTPMarketCSharpWrapper.dll</HintPath>
     </Reference>
+    <Reference Include="CTPTradeCSharpWrapper">
+      <HintPath>..\api\ctp\Trade\CTPTradeCSharpWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +52,9 @@
     <Compile Include="CTP\CTPMarketApi.cs" />
     <Compile Include="CTP\CTPMarketApiFactory.cs" />
     <Compile Include="CTP\CTPMarketCallbackMapping.cs" />
+    <Compile Include="CTP\CTPTradeApi.cs" />
+    <Compile Include="CTP\CTPTradeApiFactory.cs" />
+    <Compile Include="CTP\CTPTradeCallbackMapping.cs" />
     <Compile Include="Esunny\EsunnyMarketApi.cs" />
     <Compile Include="Esunny\EsunnyMarketApiFactory.cs" />
     <Compile Include="Esunny\EsunnyMarketCallbackMapping.cs" />

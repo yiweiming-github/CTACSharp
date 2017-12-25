@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcMarketDataBestPriceField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -81,5 +82,7 @@ public class CThostFtdcMarketDataBestPriceField : global::System.IDisposable {
 
   public CThostFtdcMarketDataBestPriceField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcMarketDataBestPriceField(), true) {
   }
+
+}
 
 }

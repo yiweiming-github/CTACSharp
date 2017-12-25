@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcUserIPField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -91,5 +92,7 @@ public class CThostFtdcUserIPField : global::System.IDisposable {
 
   public CThostFtdcUserIPField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcUserIPField(), true) {
   }
+
+}
 
 }

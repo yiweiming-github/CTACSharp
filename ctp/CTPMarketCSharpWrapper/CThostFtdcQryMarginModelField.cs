@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcQryMarginModelField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -61,5 +62,7 @@ public class CThostFtdcQryMarginModelField : global::System.IDisposable {
 
   public CThostFtdcQryMarginModelField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryMarginModelField(), true) {
   }
+
+}
 
 }

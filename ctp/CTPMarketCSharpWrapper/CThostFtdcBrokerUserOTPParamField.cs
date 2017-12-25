@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcBrokerUserOTPParamField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -121,5 +122,7 @@ public class CThostFtdcBrokerUserOTPParamField : global::System.IDisposable {
 
   public CThostFtdcBrokerUserOTPParamField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcBrokerUserOTPParamField(), true) {
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcEWarrantOffsetField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -121,5 +122,7 @@ public class CThostFtdcEWarrantOffsetField : global::System.IDisposable {
 
   public CThostFtdcEWarrantOffsetField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcEWarrantOffsetField(), true) {
   }
+
+}
 
 }

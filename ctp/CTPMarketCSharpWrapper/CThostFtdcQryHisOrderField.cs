@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcQryHisOrderField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -131,5 +132,7 @@ public class CThostFtdcQryHisOrderField : global::System.IDisposable {
 
   public CThostFtdcQryHisOrderField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcQryHisOrderField(), true) {
   }
+
+}
 
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcRspFutureSignOutField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -271,5 +272,7 @@ public class CThostFtdcRspFutureSignOutField : global::System.IDisposable {
 
   public CThostFtdcRspFutureSignOutField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcRspFutureSignOutField(), true) {
   }
+
+}
 
 }

@@ -19,7 +19,7 @@ http://prdownloads.sourceforge.net/swig/swigwin-3.0.12.zip
 
 - 在`swig\Market`目录下运行：
 
-`swig.exe -c++ -csharp -directors CTPMarketCppWrapper.i`
+`swig.exe -c++ -csharp -directors -namespace CTACSharp.CTP.Market CTPMarketCppWrapper.i`
 
 - CTPMarketCppWrapper
 

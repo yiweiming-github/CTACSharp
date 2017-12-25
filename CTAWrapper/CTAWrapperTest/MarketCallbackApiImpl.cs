@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CTACSharp.CTP.Market;
 using CTAWrapper;
 
 namespace CTAWrapperTest
@@ -31,10 +32,11 @@ namespace CTAWrapperTest
             else
             {
                 Console.WriteLine("OnRspUserLogin");
-                _isReady = true;
+                _isReady = _isConnected;
             }
         }
 
+        //易盛有这个callback
         public void OnApiReady()
         {
             _isReady = true;

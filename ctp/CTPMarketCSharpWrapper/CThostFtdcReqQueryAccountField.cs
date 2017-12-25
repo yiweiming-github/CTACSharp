@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcReqQueryAccountField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -401,5 +402,7 @@ public class CThostFtdcReqQueryAccountField : global::System.IDisposable {
 
   public CThostFtdcReqQueryAccountField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcReqQueryAccountField(), true) {
   }
+
+}
 
 }

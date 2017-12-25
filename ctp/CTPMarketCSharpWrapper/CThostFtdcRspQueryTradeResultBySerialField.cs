@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CThostFtdcRspQueryTradeResultBySerialField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -301,5 +302,7 @@ public class CThostFtdcRspQueryTradeResultBySerialField : global::System.IDispos
 
   public CThostFtdcRspQueryTradeResultBySerialField() : this(CTPMarketCppWrapperPINVOKE.new_CThostFtdcRspQueryTradeResultBySerialField(), true) {
   }
+
+}
 
 }

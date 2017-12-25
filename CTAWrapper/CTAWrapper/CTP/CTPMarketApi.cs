@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CTACSharp.CTP.Market;
 using CTAWrapper.Esunny;
 
 namespace CTAWrapper.CTP
@@ -14,7 +15,7 @@ namespace CTAWrapper.CTP
             _mdApi = mdApi;
         }
 
-        public void RegisterCallbackMapping(IMarketCallbackApi callbackApi)
+        public void RegisterCallback(IMarketCallbackApi callbackApi)
         {
             var mapping = new CTPMarketCallbackMapping();
             mapping.SetCallbackImpl(callbackApi);

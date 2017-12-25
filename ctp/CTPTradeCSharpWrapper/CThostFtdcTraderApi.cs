@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcTraderApi : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -1096,4 +1097,6 @@ public class CThostFtdcTraderApi : global::System.IDisposable {
   private static global::System.Type[] swigMethodTypes71 = new global::System.Type[] { typeof(CThostFtdcReqTransferField), typeof(int) };
   private static global::System.Type[] swigMethodTypes72 = new global::System.Type[] { typeof(CThostFtdcReqTransferField), typeof(int) };
   private static global::System.Type[] swigMethodTypes73 = new global::System.Type[] { typeof(CThostFtdcReqQueryAccountField), typeof(int) };
+}
+
 }

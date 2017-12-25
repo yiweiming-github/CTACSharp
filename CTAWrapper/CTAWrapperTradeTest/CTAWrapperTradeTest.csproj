@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{67447CF9-53CB-425C-A794-25702CDFDD8B}</ProjectGuid>
+    <ProjectGuid>{EC8B05E4-D51A-4144-86EB-1C28D4D2D505}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CTAWrapperTest</RootNamespace>
-    <AssemblyName>CTAWrapperTest</AssemblyName>
+    <RootNamespace>CTAWrapperTradeTest</RootNamespace>
+    <AssemblyName>CTAWrapperTradeTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CTPMarketCSharpWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\api\ctp\Market\CTPMarketCSharpWrapper.dll</HintPath>
+    <Reference Include="CTPTradeCSharpWrapper">
+      <HintPath>..\api\ctp\Trade\CTPTradeCSharpWrapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MarketCallbackApiImpl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TradeCallbackApiImpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,8 +59,4 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /E /Y $(SolutionDir)\api\esunny\Quote\*.dll .
-xcopy /E /Y $(SolutionDir)\api\ctp\Market\*.dll .</PostBuildEvent>
-  </PropertyGroup>
 </Project>

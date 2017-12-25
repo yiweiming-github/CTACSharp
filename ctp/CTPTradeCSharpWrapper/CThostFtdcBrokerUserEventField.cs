@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcBrokerUserEventField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -131,5 +132,7 @@ public class CThostFtdcBrokerUserEventField : global::System.IDisposable {
 
   public CThostFtdcBrokerUserEventField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcBrokerUserEventField(), true) {
   }
+
+}
 
 }

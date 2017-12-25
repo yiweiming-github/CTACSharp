@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CTACSharp.CTP.Trade;
 
 namespace CTAWrapper
 {
     public interface ITradeApi
     {
         //相当于CTP的RegisterSpi
-        void RegisterCallbackMapping(ITradeCallbackMapping callbackApi);
+        void RegisterCallback(ITradeCallbackApi callbackApi);
 
         string GetApiVersion();
         void Release();

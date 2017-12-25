@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Market {
 
 public class CTPMarketCppWrapper {
   public static readonly char THOST_FTDC_EXP_Normal = CTPMarketCppWrapperPINVOKE.THOST_FTDC_EXP_Normal_get();
@@ -1157,4 +1158,6 @@ public class CTPMarketCppWrapper {
   public static readonly char THOST_FTDC_CFUFN_SUFN_S = CTPMarketCppWrapperPINVOKE.THOST_FTDC_CFUFN_SUFN_S_get();
   public static readonly char THOST_FTDC_CMDR_Comb = CTPMarketCppWrapperPINVOKE.THOST_FTDC_CMDR_Comb_get();
   public static readonly char THOST_FTDC_CMDR_UnComb = CTPMarketCppWrapperPINVOKE.THOST_FTDC_CMDR_UnComb_get();
+}
+
 }

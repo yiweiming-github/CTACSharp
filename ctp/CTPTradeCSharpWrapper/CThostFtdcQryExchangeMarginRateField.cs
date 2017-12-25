@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace CTACSharp.CTP.Trade {
 
 public class CThostFtdcQryExchangeMarginRateField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -71,5 +72,7 @@ public class CThostFtdcQryExchangeMarginRateField : global::System.IDisposable {
 
   public CThostFtdcQryExchangeMarginRateField() : this(CTPTradeCppWrapperPINVOKE.new_CThostFtdcQryExchangeMarginRateField(), true) {
   }
+
+}
 
 }
