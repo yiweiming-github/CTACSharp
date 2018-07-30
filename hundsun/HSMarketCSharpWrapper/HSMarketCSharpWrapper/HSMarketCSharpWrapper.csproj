@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE9A0DEA-3A7B-414C-B191-65FCDF95E9AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HSMarketCSharpWrapper</RootNamespace>
+    <AssemblyName>HSMarketCSharpWrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CHSCombActionField.cs" />
+    <Compile Include="CHSDepthMarketDataField.cs" />
+    <Compile Include="CHSExerciseField.cs" />
+    <Compile Include="CHSLockField.cs" />
+    <Compile Include="CHSMdApi.cs" />
+    <Compile Include="CHSMdSpi.cs" />
+    <Compile Include="CHSOrderField.cs" />
+    <Compile Include="CHSReqBillConfirmField.cs" />
+    <Compile Include="CHSReqCombActionInsertField.cs" />
+    <Compile Include="CHSReqDepthMarketDataField.cs" />
+    <Compile Include="CHSReqExerciseOrderActionField.cs" />
+    <Compile Include="CHSReqExerciseOrderInsertField.cs" />
+    <Compile Include="CHSReqForQuoteInsertField.cs" />
+    <Compile Include="CHSReqLockInsertField.cs" />
+    <Compile Include="CHSReqOrderActionField.cs" />
+    <Compile Include="CHSReqOrderInsertField.cs" />
+    <Compile Include="CHSReqQryCombActionField.cs" />
+    <Compile Include="CHSReqQryCommissionField.cs" />
+    <Compile Include="CHSReqQryCoveredShortField.cs" />
+    <Compile Include="CHSReqQryDepthMarketDataField.cs" />
+    <Compile Include="CHSReqQryExerciseAssignField.cs" />
+    <Compile Include="CHSReqQryExerciseField.cs" />
+    <Compile Include="CHSReqQryInstrumentField.cs" />
+    <Compile Include="CHSReqQryLockField.cs" />
+    <Compile Include="CHSReqQryMarginField.cs" />
+    <Compile Include="CHSReqQryOrderField.cs" />
+    <Compile Include="CHSReqQryPositionCombineDetailField.cs" />
+    <Compile Include="CHSReqQryPositionDetailField.cs" />
+    <Compile Include="CHSReqQryPositionField.cs" />
+    <Compile Include="CHSReqQrySysConfigField.cs" />
+    <Compile Include="CHSReqQryTradeField.cs" />
+    <Compile Include="CHSReqQryTradingAccountField.cs" />
+    <Compile Include="CHSReqQryTransferField.cs" />
+    <Compile Include="CHSReqQueryBankAccountField.cs" />
+    <Compile Include="CHSReqQueryBankBalanceField.cs" />
+    <Compile Include="CHSReqQueryBillContentField.cs" />
+    <Compile Include="CHSReqQueryExerciseVolumeField.cs" />
+    <Compile Include="CHSReqQueryLockVolumeField.cs" />
+    <Compile Include="CHSReqQueryMaxOrderVolumeField.cs" />
+    <Compile Include="CHSReqTransferField.cs" />
+    <Compile Include="CHSReqUserLoginField.cs" />
+    <Compile Include="CHSReqUserPasswordUpdateField.cs" />
+    <Compile Include="CHSRspBillConfirmField.cs" />
+    <Compile Include="CHSRspCombActionInsertField.cs" />
+    <Compile Include="CHSRspExerciseOrderActionField.cs" />
+    <Compile Include="CHSRspExerciseOrderInsertField.cs" />
+    <Compile Include="CHSRspForQuoteInsertField.cs" />
+    <Compile Include="CHSRspInfoField.cs" />
+    <Compile Include="CHSRspLockInsertField.cs" />
+    <Compile Include="CHSRspOrderActionField.cs" />
+    <Compile Include="CHSRspOrderInsertField.cs" />
+    <Compile Include="CHSRspQryCommissionField.cs" />
+    <Compile Include="CHSRspQryCoveredShortField.cs" />
+    <Compile Include="CHSRspQryExerciseAssignField.cs" />
+    <Compile Include="CHSRspQryInstrumentField.cs" />
+    <Compile Include="CHSRspQryMarginField.cs" />
+    <Compile Include="CHSRspQryPositionCombineDetailField.cs" />
+    <Compile Include="CHSRspQryPositionDetailField.cs" />
+    <Compile Include="CHSRspQryPositionField.cs" />
+    <Compile Include="CHSRspQrySysConfigField.cs" />
+    <Compile Include="CHSRspQryTradingAccountField.cs" />
+    <Compile Include="CHSRspQryTransferField.cs" />
+    <Compile Include="CHSRspQueryBankAccountField.cs" />
+    <Compile Include="CHSRspQueryBankBalanceField.cs" />
+    <Compile Include="CHSRspQueryBillContentField.cs" />
+    <Compile Include="CHSRspQueryExerciseVolumeField.cs" />
+    <Compile Include="CHSRspQueryLockVolumeField.cs" />
+    <Compile Include="CHSRspQueryMaxOrderVolumeField.cs" />
+    <Compile Include="CHSRspTransferField.cs" />
+    <Compile Include="CHSRspUserLoginField.cs" />
+    <Compile Include="CHSRspUserPasswordUpdateField.cs" />
+    <Compile Include="CHSTradeField.cs" />
+    <Compile Include="HSMarketCppWrapper.cs" />
+    <Compile Include="HSMarketCppWrapperPINVOKE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
