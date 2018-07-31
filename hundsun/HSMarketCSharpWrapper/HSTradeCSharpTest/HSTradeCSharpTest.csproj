@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C543F9F-E6A3-4978-A6B2-FB9C69E59F5F}</ProjectGuid>
+    <ProjectGuid>{9E2D7307-056F-4590-AE06-E8DC4865A2F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HSMarketCSharpTest</RootNamespace>
-    <AssemblyName>HSMarketCSharpTest</AssemblyName>
+    <RootNamespace>HSTradeCSharpTest</RootNamespace>
+    <AssemblyName>HSTradeCSharpTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HSMdSpiImpl.cs" />
+    <Compile Include="HSTradeSpiImpl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,16 +50,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HSMarketCSharpWrapper\HSMarketCSharpWrapper.csproj">
-      <Project>{ee9a0dea-3a7b-414c-b191-65fcdf95e9af}</Project>
-      <Name>HSMarketCSharpWrapper</Name>
+    <ProjectReference Include="..\HSTradeCSharpWrapper\HSTradeCSharpWrapper.csproj">
+      <Project>{9f2937e9-f342-4621-92a9-6cecb830461b}</Project>
+      <Name>HSTradeCSharpWrapper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /E /Y $(SolutionDir)\api\lib\HSMdApi.dll .
+    <PostBuildEvent>xcopy /E /Y $(SolutionDir)\api\lib\HSTradeApi.dll .
 xcopy /E /Y $(SolutionDir)\api\lib\t2sdk.dll .
 xcopy /E /Y $(SolutionDir)\api\lib\license_3rd.dat .
-xcopy /E /Y $(SolutionDir)\Debug\HSMarketCppWrapper.dll .</PostBuildEvent>
+xcopy /E /Y $(SolutionDir)\Debug\HSTradeCppWrapper.dll .</PostBuildEvent>
   </PropertyGroup>
 </Project>

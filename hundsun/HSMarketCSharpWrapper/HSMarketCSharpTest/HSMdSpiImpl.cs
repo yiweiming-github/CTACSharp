@@ -9,6 +9,13 @@ namespace HSMarketCSharpTest
 {
     public class HSMdSpiImpl : CHSMdSpi
     {
+        private CHSMdApi _api;
+
+        public HSMdSpiImpl(CHSMdApi api)
+        {
+            _api = api;
+        }
+
         public override void OnFrontConnected()
         {
             Console.WriteLine("OnFrontConnected");
@@ -17,22 +24,22 @@ namespace HSMarketCSharpTest
 
         public override void OnFrontDisconnected(int nResult)
         {
-            base.OnFrontDisconnected(nResult);
+            Console.WriteLine("OnFrontDisconnected");
         }
 
         public override void OnRspDepthMarketDataSubscribe(CHSRspInfoField pRspInfo, int nRequestID, bool bIsLast)
         {
-            base.OnRspDepthMarketDataSubscribe(pRspInfo, nRequestID, bIsLast);
+            Console.WriteLine("OnRspDepthMarketDataSubscribe");
         }
 
         public override void OnRspDepthMarketDataCancel(CHSRspInfoField pRspInfo, int nRequestID, bool bIsLast)
         {
-            base.OnRspDepthMarketDataCancel(pRspInfo, nRequestID, bIsLast);
+            Console.WriteLine("OnRspDepthMarketDataCancel");
         }
 
         public override void OnRtnDepthMarketData(CHSDepthMarketDataField pDepthMarketData)
         {
-            base.OnRtnDepthMarketData(pDepthMarketData);
+            Console.WriteLine("OnRtnDepthMarketData");
         }
     }
 }
